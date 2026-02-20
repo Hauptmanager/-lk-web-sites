@@ -2,36 +2,30 @@ index.html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Emir Basaran (CV)</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>CV metnim,Hakkimda bölümü</h1></h1>
-    <p>Ben Emir yazılım bilişim alanında ilk adımlarımı atıyorum 
-    front-end alanında kendimi geliştirmeye odaklıyım 
-    html ve css temellerine genel olarak hakimim öğrenmeye açık bir yazılım geliştiricisiyim</p>
-    <script>
-function degistir() {
-    document.querySelector("p").innerText = "Yaptığım ilk olmasada githubda yayınlanan ilk projem.";
-}
-</script>
-    <button onclick="degistir()">New!</button>
-</body>
-
-
-<head>
     <meta charset="UTF-8">
-    <title>Emir'in Web Sitesi</title>
+    <title>Emir Başaran — Junior Web Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Projelerim ve ben hakkında!</h1>
-    <p>Web developer yolunda 2026 şubat</p>
-    <button onclick="degistir()">Tıkla!</button>
+    <header>
+        <h1>Merhaba, Ben Emir 👋</h1>
+        <p>Web Developer ogrencisi</p>
+    </header>
+
+    <section class="projects">
+        <h2>Projelerim</h2>
+        <ul>
+            <li>Portfolio Sitesi</li>
+            <li>To-Do List</li>
+            <li>Hava Durumu Uygulaması</li>
+        </ul>
+    </section>
+
+    <button onclick="degistir()">Tıkla ve Enerji Kazan 💥</button>
 
     <script>
         function degistir() {
-            document.querySelector("p").innerText = "gelişim aşamasında bir proje";
+            document.querySelector("p").innerText = "Ben gelişiyorum 💻🔥";
         }
     </script>
 </body>
