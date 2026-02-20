@@ -1,35 +1,29 @@
 style.css
 body {
-    background-color: #111;
-    color: white;
-    font-family: Arial;
-    text-align: center;
-    margin-top: 100px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: orange;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
-body {
-    text-align: center;
-    padding-top: 50px;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #222;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(120deg, #0078ff, #00c6ff);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e6f7ff;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #0078ff;
-    color: white;
+    padding: 12px 28px;
+    background-color: #ffdd57;
+    color: #222;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
+    margin-top: 25px;
 }
