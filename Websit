@@ -8,6 +8,11 @@ index.html
 <body>
     <h1>Merhaba Dünya 🚀</h1>
     <p>Ben Emir, web developer oluyorum.</p>
-    <button>Tıkla</button>
+    <script>
+function degistir() {
+    document.querySelector("p").innerText = "Yazılım öğreniyorum 💻🔥";
+}
+</script>
+    <button onclick="degistir()">Tıkla</button>
 </body>
 </html>
