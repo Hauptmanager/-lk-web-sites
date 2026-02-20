@@ -1,0 +1,12 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emir'in Sitesi</title>
+</head>
+<body>
+    <h1>Merhaba Dünya 🚀</h1>
+    <p>Ben Emir, web developer oluyorum.</p>
+    <button>Tıkla</button>
+</body>
+</html>
