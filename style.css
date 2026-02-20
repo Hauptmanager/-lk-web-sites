@@ -14,3 +14,22 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+body {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
